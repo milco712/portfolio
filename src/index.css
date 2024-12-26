@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-img {
+  background-image: url("https://milco-bucket.s3.ap-northeast-2.amazonaws.com/bg.png");
+  background-position: right center; /* 배경 이미지를 오른쪽 가운데에 배치 */
+  background-repeat: no-repeat; /* 배경 이미지 반복 방지 */
+  background-size: 50%; /* 배경 이미지가 컨테이너 크기에 맞게 커지도록 */
+}
